@@ -20,6 +20,9 @@ package javaRush.metod.staticVariable;
 public class Solition4 {
     public static String city = "Токио";
     public static double population = 34.5;
+    short s = 32767;
+    int i = 2147483647;
+    long l = 9223372036854775807L;
 
     public static void main(String[] args) {
         printCityPopulation("Джакарта", 25.3);
